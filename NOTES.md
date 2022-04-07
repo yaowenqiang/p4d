@@ -27,3 +27,10 @@
 > my_list = [1,2,3]
 > import numpy as np
 > np.array(my_list)
+> my_mat = [[1,2,3], [4,56],[7,8.9]]
+
+>> np.aranage(0, 10)
+> np.zeros(10)
+> np.zeros(12,3)
+> np.linspace(12,5, 100)
+> np.eye(4)
