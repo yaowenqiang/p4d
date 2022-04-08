@@ -34,3 +34,13 @@
 > np.zeros(12,3)
 > np.linspace(12,5, 100)
 > np.eye(4)
+>np.random.rand(5)
+>np.random.rand(5, 5)
+>np.random.ranmd(2)
+>np.random.ranmd(5,5)
+>np.random.ranmdint(5,100)
+>np.random.ranmdint(5,100, 10)
+> arr = np.arange(25)
+> ranarr = np.random.randint(0, 50, 10)
+> arr.reshap(5,5)
+
