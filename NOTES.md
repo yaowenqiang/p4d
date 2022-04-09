@@ -43,4 +43,15 @@
 > arr = np.arange(25)
 > ranarr = np.random.randint(0, 50, 10)
 > arr.reshap(5,5)
+> randarr.max()
+> randarr.min()
+> randarr.argxmax()
+> randarr.argxmin()
+> randarr.shap
+> randarr.dhap
+> arr[0:5] = 100
+> arr_copy = arr.copy()
+> arr_2d = [[1,1,2],[4,5,6], [7,8.9]]
+> arr_2d[0][0]
+> 
 
