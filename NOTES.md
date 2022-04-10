@@ -53,5 +53,9 @@
 > arr_copy = arr.copy()
 > arr_2d = [[1,1,2],[4,5,6], [7,8.9]]
 > arr_2d[0][0]
-> 
+> arr_2d[0,10]
+> arr_2d[:2,11:]
+> boolean_arr = arr > 5
+> arr[boolean_arr]
+> arr[arr>5]
 
