@@ -59,3 +59,18 @@
 > arr[boolean_arr]
 > arr[arr>5]
 
+> arr + arr
+> arr - arr
+> arr * arr
+> arr / arr
+> arr + 100
+> arr ** 2
+
+# numpy Universal functions(ufunc)
+
+> np.sqrt(arr)
+> np.exp(arr)
+> np.max(arr)
+> np.sin(arr)
+> np.cos(arr)
+> np.log(arr)
