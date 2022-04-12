@@ -74,3 +74,18 @@
 > np.sin(arr)
 > np.cos(arr)
 > np.log(arr)
+
+# pandas
+> pip install pandas
+
+
+## series
+
+> import numpy as np
+> import pandas as pd
+>  my_data  = [10,20,30]
+> labels = [a', 'b', 'c']
+> pd.Series(data = my_data)
+> pd.Series(data = my_data, index=labels)
+> pd.Series(my_data, labels)
+
