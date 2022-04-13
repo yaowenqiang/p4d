@@ -89,3 +89,17 @@
 > pd.Series(data = my_data, index=labels)
 > pd.Series(my_data, labels)
 
+## dataFrames
+
+> from numpy.random import randn
+> np.random.seed(101)
+> df = pd.DataFrame(randn(5,4), ['A', 'B', 'C', 'D', 'E'], ['W','X', 'Y', 'Z'])
+> df['W']
+> df.W
+> df[['W','X']]
+> df['new'] = df['W'] + df['Y']
+
+> df.drop('new', axis=1)
+> df.drop('new', axis=1, inplace=True)
+df.drop('E',axis=0)
+
