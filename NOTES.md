@@ -101,5 +101,13 @@
 
 > df.drop('new', axis=1)
 > df.drop('new', axis=1, inplace=True)
-df.drop('E',axis=0)
+> df.drop('E',axis=0)
+
+## Select rows
+
+> df.loc['A']
+> df.iloc[1]
+>df.loc['B', 'Y']
+>df.loc[['A', 'B'], 'Y']
+
 
