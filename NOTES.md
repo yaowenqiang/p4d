@@ -107,7 +107,15 @@
 
 > df.loc['A']
 > df.iloc[1]
->df.loc['B', 'Y']
->df.loc[['A', 'B'], 'Y']
+> df.loc['B', 'Y']
+> df.loc[['A', 'B'], 'Y']
+> booldf = > df > 0
+> df[booldf]
+> >df[df > 0]
+> df['W'] > 0
+> df[df]['W'] > 0]
+> df[df]['W'] > 0]['X']
+
+
 
 
