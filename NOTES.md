@@ -115,6 +115,13 @@
 > df['W'] > 0
 > df[df]['W'] > 0]
 > df[df]['W'] > 0]['X']
+> df[(df['W']> 0) & (df['Y'] > 1)]
+> df[(df['W']> 0) | (df['Y'] > 1)]
+> df.reset_index()
+> newind = 'CA NY WY OR CO'.split()
+> df['stats'] = newwind
+> df.set_index('stats')
+> df.set_index('stats', inplace=True)
 
 
 
