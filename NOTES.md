@@ -138,3 +138,36 @@
 > df.xs('G1')
 > df.xs(1, levle='Num)
 
+
+## Data input and ouput
+
++ CSV
++ HTML
++ sql
++ Excel
+
+> conda install sqlalchemy
+> conda install lxml
+> conda install html5lib
+> conda install BeautifulSoup4
+> conda install xlrd
+
+> import pandas as pd
+> df = pd.read_csv('example.csv')
+> df.to_csv('new', index=False)
+> pd.read_excel('my_excel.elsx', sheetname='Sheet1')
+> df.to_excel('new.xlsx', sheet_name='Sheet2')
+
+> data = pd.read_html('url')
+> data[0].head()
+
+>> from sqlalchemy import create_engine
+> engine = create_engine('sqlite:///:memory:')
+df.to_sql('my_table', engine)
+
+> df.read_sql('my__table', engine)
+
+
+
+
+
