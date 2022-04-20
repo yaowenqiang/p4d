@@ -178,5 +178,31 @@ df.to_sql('my_table', engine)
 > df['A'].fillna(value=df['A'].mean())
 
 
+## Data Group
+
+'''
+data = {
+        'Company': ['GOOG','GOOG', 'MSFT', 'MSFT', 'FB', 'FB'],
+        'Persion': ['Sam', 'Charlie', 'Amy', 'vanessa', 'Carl', 'Sarah'], 
+        'Sales': [200, 120, 340, 124, 243, 350]
+}
+
+df = pd.DataFrame(data)
+
+byCom = df.groupby('Company')
+> byCom.mean()
+> byCom.std()
+> byCom.sum()
+> byCom.count()
+> byCom.max()
+> byCom.min()
+
+df.groupby('Company').sum().loc['FB']
+df.groupby('Company').describe()
+df.groupby('Company').describe().transpose()
+df.groupby('Company').describe().transpose()['FB']
+
+'''
+
 
 
