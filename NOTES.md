@@ -239,5 +239,24 @@ df.groupby('Company').describe().transpose()['FB']
 	})
 
 > pd.merge(left, right, how='inner', on='key')
+> 
+> lef.join(right)
 
+
+
+## Operations
+
+> df.head
+> df['col2'].unique()
+> df['col2'].nunique()
+> df['col2'].value_counts()
+> df[df['col2']>2]
+> df[(df['col2']>2) | (df['col2']<10]
+
+> def times2(x):
+	return x *2
+
+> df['col1'].apply(times2)
+> df['col1'].apply(len)
+> df['col1'].apply(lambda x: x*2)
 
