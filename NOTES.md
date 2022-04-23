@@ -259,4 +259,25 @@ df.groupby('Company').describe().transpose()['FB']
 > df['col1'].apply(times2)
 > df['col1'].apply(len)
 > df['col1'].apply(lambda x: x*2)
+> df.drop('col1', axis=1)
+> df.drop('col1', axis=1, inplace=True)
+> df.columns
+> df.index
+> df.sort_values('col2')
+> df.sort_values(by ='col2')
+> df.isnull()
+
+
+''''''
+     data = {
+        'A':['foo','foo','foo','bar','bar','bar'],
+        'B':['one','one','one','two','two','two'],
+        'C':['x','x','x','y','y','y'],
+        'D':[1,3,2,5,4,1]
+        
+df = pd.DataFrame(data)
+df.pivot_table(values='d',index=['A', 'B'], columns=['C'])
+
+''''''
+
 
