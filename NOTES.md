@@ -281,3 +281,23 @@ df.pivot_table(values='d',index=['A', 'B'], columns=['C'])
 ''''''
 
 
+# Matplotlib
+
+> pip install matplotlib
+
+'''
+	import matplotlib.pyplot as plt
+    %matplotlib inline
+    plt.show()
+
+> import numpy as np
+
+x = lispace(0, 5, 11)
+y = x ** 2
+plt.plot(x, y,)
+plt.xlable('x label')
+plt.ylable('y label')
+plt.title('title)
+plt.plot(x, y, 'r-',)
+'''
+
