@@ -299,5 +299,25 @@ plt.xlable('x label')
 plt.ylable('y label')
 plt.title('title)
 plt.plot(x, y, 'r-',)
+
+plt.subplot(1,2, 1)
+plot.plot(x,y, 'r')
+
+plt.subplot(1,2, 2)
+plot.plot(y,x, 'b')
+
+# OO
+
+fig = plt.figure()
+
+axes = fig.add_axex([0,1, 0.1, 0.8k 0.8])
+axes.plot(x,y)
+axes.set_xlabel('x label')
+axes.set_ylabel('x label')
+axes.set_title('title')
+
 '''
+
+
+
 
