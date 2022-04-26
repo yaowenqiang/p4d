@@ -319,5 +319,16 @@ axes.set_title('title')
 '''
 
 
+fig = plt.figure()
+
+axes1 = fig.add_axes([0.1,0.1, 0.8, 0.8])
+axes2 = fig.add_axes([0.2,0.5, 0.4, 0.3])
+
+axes1.plot(x,y)
+axes2.plot(y,x)
+
+fig, axes = plt.subplot(nrows=1, ncols=2)
+plt.tight_layout()
+
 
 
