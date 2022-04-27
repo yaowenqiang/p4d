@@ -330,5 +330,16 @@ axes2.plot(y,x)
 fig, axes = plt.subplot(nrows=1, ncols=2)
 plt.tight_layout()
 
+for current_ax in axes:
+	currentax.plot(x,y)
+axes[0[.plot()]]
 
+## Figure Size and DPI
 
+fig = plt.figure(figsize=(3,2), dpi=100)
+fig.save_fig('my_pic.png')
+
+ax.plot(x,y*x, lable='x square')
+ax.plot(x,y**3, lable='x cubed')
+ax.legend()
+ax.legend(loc=0)
