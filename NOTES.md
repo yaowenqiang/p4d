@@ -343,3 +343,28 @@ ax.plot(x,y*x, lable='x square')
 ax.plot(x,y**3, lable='x cubed')
 ax.legend()
 ax.legend(loc=0)
+ax.legend(loc=(0,1,0,1))
+
+## setting colors
+
+fig = plt.figure()
+ax = fig.add_axes([0,0, 1,1])
+ax = fig.add_axes([0,0, 1,1])
+ax.plot(x, y, color='#ff0000')
+ax.plot(x, y, color='#ff0000', linewidth=1)
+ax.plot(x, y, color='#ff0000', linewidth=1, alpha=0.5)
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5)
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, linestyle='--')
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, linestyle=':')
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, linestyle='steps')
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, ls='steps')
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, ls='steps', marker='o')
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, ls='steps', marker='o', markersize=10)
+ax.plot(x, y, color='#ff0000', lw=1, alpha=0.5, ls='steps', marker='o', markersize=10, markerfacecolor='yellow, markeredgewidth=10,, markeredgecolor='green')
+
+ax.set_xlin([0,1])
+ax.set_ylin([0,2])
+
+
+
+
